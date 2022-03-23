@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor-fundo: #36325A;
+    --cor-section3: #d2d3ff;
+}
+
+body {
+    font-size: 100%;
+    background-color: var(--cor-fundo);
+}
+
+link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+hr {
+    width: 15rem;
+    margin: 1rem auto;
+    color: white !important;
+    opacity: unset !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: var(--cor-azul-claro) !important;
+}
+
+.cabecalho-imagem {
+    width: 166px;
+    height: 40px;
+}
+
+.cabecalho-imagem2 {
+    max-width: 100%;
+}
+
+.conteudo-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    color: white;
+}
+
+.conteudo-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.margem-acima {
+    margin-top: 4rem;
+}
+
+.margem-acima-grande {
+    margin-top: 17rem;
+}
+
+.margem-abaixo {
+    margin-bottom: 4rem;
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.rodape {
+    padding-bottom: 5rem;
+}
+
+.rodape-imagem {
+    height: 3rem;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+}
+
+.hero-content {
+    max-width: 500px;
+    width: 100%;
+}
+
+
+/* Treino.html */
+
+.section-1 {
+    background-color: #26a69a;
+    border: black solid 1px;
+    height: 13rem;
+}
+
+.section-2 {
+    background-color: #66bb6a;
+    border: black solid 1px;
+    height: 13rem;
+}
+
+.section-3 {
+    background-color: #64dd17;
+    border: black solid 1px;
+    height: 13rem;
+}
+
+.object-1 {
+    background-color: white;
+    border: black solid 1px;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.borda-1 {
+    border: white solid 1px;
+    border-radius: 15px;
+}
+
+.altura-1 {
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .object-1 {
+        width: 5rem;
+    }
+}
+
+.texto-branco {
+    color: white;
+}
+
+.section3-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: white;
+}
+
+.section3-paragraph {
+    font-size: 1.3rem;
+    color: var(--cor-section3);
+}
